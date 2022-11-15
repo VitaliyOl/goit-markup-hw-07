@@ -1,0 +1,38 @@
+.customer {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.title {
+  margin-bottom: 50px;
+}
+.customer__list {
+  display: flex;
+}
+.customer__item:not(:last-child) {
+  margin-right: 30px;
+}
+.customer__link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  outline-style: none;
+
+  transition: border-color $trns, color $trns;
+
+  color: #afb1b8;
+
+  &:hover,
+  &:focus {
+    border-color: $accent-color;
+    color: $accent-color;
+  }
+}
+.customer__icon {
+  fill: currentColor;
+}
