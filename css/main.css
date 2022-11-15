@@ -699,6 +699,10 @@ button {
   color: #ffffff;
 }
 
+.address {
+  margin-top: 20px;
+}
+
 .address__item {
   margin-bottom: 9px;
   font-style: normal;
